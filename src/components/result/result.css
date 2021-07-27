@@ -1,0 +1,17 @@
+.resultContainer{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(208, 243, 208);
+}
+.result_Box{
+    padding: 8%;
+    text-align: center;
+    background-color: #6ae1ec;
+    box-shadow: 0px 5px 6px rgba(0, 0, 0 ,0.13),0 2px 3px rgba(0,0,0,0.24);
+    padding-top:50px;
+    padding-bottom: 40px;
+}
+h1{
+    color: rgb(153, 123, 23);
+}
