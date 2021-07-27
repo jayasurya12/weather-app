@@ -11,9 +11,9 @@ const App = () => {
     icon:"",
     
   }])
-  const [Icon, setIcon] = useState('')
+ 
   const [Temp, setTemp] = useState('')
-  const [Description, setDes] = useState('')
+  
   
   const findWeather=async()=>{
     const apiKey='e0e83b0c17ddaf027f15d443e0c5e69a'
@@ -31,8 +31,6 @@ const App = () => {
     console.log(data)
     // setIcon(iconurl)
     setTemp(temp)
-    setDes(description)
-
     setWeather({
       icon,
      description,
